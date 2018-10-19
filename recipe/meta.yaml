@@ -1,6 +1,6 @@
 {% set name = "rowan" %}
-{% set version = "1.1.0" %}
-{% set sha256 = "44093d4d92a7020a2fef133f76db1b57af509d8e2e6d8c8922fa7a7230a512de" %}
+{% set version = "1.1.6" %}
+{% set sha256 = "4ac4a1140bdc80816f3125b755b87b0303f7cb195385c1c4464935d75062eaa7" %}
 
 package:
   name: {{ name|lower }}

@@ -36,7 +36,7 @@ test:
     - rowan.random
 
 about:
-  home: https://bitbucket.org/glotzer/rowan
+  home: https://github.com/glotzerlab/rowan
   license: BSD-3
   license_family: BSD
   license_file: LICENSE.txt
@@ -49,8 +49,10 @@ about:
     but broadcasting is fully supported natively for all operations to
     ensure that code is performant.
   doc_url: http://rowan.readthedocs.io/
-  dev_url: https://bitbucket.org/glotzer/rowan
+  dev_url: https://github.com/glotzerlab/rowan
 
 extra:
   recipe-maintainers:
     - vyasr
+    - joaander
+    - bdice

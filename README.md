@@ -1,11 +1,7 @@
-<!--
-# -*- mode: jinja -*-
--->
-
 About rowan
 ===========
 
-Home: https://bitbucket.org/glotzer/rowan
+Home: https://github.com/glotzerlab/rowan
 
 Package license: BSD-3
 
@@ -23,8 +19,17 @@ ensure that code is performant.
 Current build status
 ====================
 
-All platforms:
-[![noarch](https://img.shields.io/circleci/project/github/conda-forge/rowan-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/rowan-feedstock)
+
+<table><tr>
+    
+    <td>All platforms:</td>
+    <td>
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4309&branchName=master">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rowan-feedstock?branchName=master">
+      </a>
+    </td>
+  </tr>
+</table>
 
 Current release info
 ====================
@@ -118,5 +123,7 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@bdice](https://github.com/bdice/)
+* [@joaander](https://github.com/joaander/)
 * [@vyasr](https://github.com/vyasr/)
 

@@ -1,6 +1,6 @@
 {% set name = "rowan" %}
-{% set version = "1.3.0.post1" %}
-{% set sha256 = "8f1d0e3279f80c6ae1ee68a90955301853b5586f64e42ba4c27d85504d525e4f" %}
+{% set version = "1.3.2" %}
+{% set sha256 = "cda6c44f1a85b16a44bea9eba6c94d4ebb2cc0c75e51f1f70d6410f25929fe11" %}
 
 package:
   name: {{ name|lower }}
@@ -17,13 +17,13 @@ build:
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
-  build:
-    - python
+  host:
+    - python >=3.8
     - pip
     - setuptools
   run:
-    - python
-    - numpy >=1.10
+    - python >=3.8
+    - numpy >=1.21
 
 test:
   imports:
@@ -36,7 +36,7 @@ test:
 
 about:
   home: https://github.com/glotzerlab/rowan
-  license: BSD-3
+  license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE.txt
   summary: Perform quaternion operations using numpy arrays

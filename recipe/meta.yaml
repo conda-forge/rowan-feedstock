@@ -18,12 +18,12 @@ build:
 
 requirements:
   host:
-    - python
+    - python >=3.8
     - pip
     - setuptools
   run:
-    - python
-    - numpy >=1.10
+    - python >=3.8
+    - numpy >=1.21
 
 test:
   imports:
@@ -36,7 +36,7 @@ test:
 
 about:
   home: https://github.com/glotzerlab/rowan
-  license: BSD-3
+  license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE.txt
   summary: Perform quaternion operations using numpy arrays

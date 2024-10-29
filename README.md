@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/rowan-feedstock
 
 Home: https://github.com/glotzerlab/rowan
 
-Package license: BSD-3
+Package license: BSD-3-Clause
 
 Summary: Perform quaternion operations using numpy arrays
 
